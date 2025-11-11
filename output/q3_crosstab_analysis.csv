@@ -1,0 +1,46 @@
+facility_type,encounter_type,region,count
+Hospital,Emergency,North,0
+Hospital,Emergency,South,127
+Hospital,Emergency,West,0
+Hospital,Inpatient,North,0
+Hospital,Inpatient,South,95
+Hospital,Inpatient,West,0
+Hospital,Lab,North,0
+Hospital,Lab,South,100
+Hospital,Lab,West,0
+Hospital,Office Visit,North,0
+Hospital,Office Visit,South,85
+Hospital,Office Visit,West,0
+Hospital,Outpatient Procedure,North,0
+Hospital,Outpatient Procedure,South,102
+Hospital,Outpatient Procedure,West,0
+Specialty Center,Emergency,North,0
+Specialty Center,Emergency,South,236
+Specialty Center,Emergency,West,182
+Specialty Center,Inpatient,North,0
+Specialty Center,Inpatient,South,210
+Specialty Center,Inpatient,West,191
+Specialty Center,Lab,North,0
+Specialty Center,Lab,South,211
+Specialty Center,Lab,West,180
+Specialty Center,Office Visit,North,0
+Specialty Center,Office Visit,South,175
+Specialty Center,Office Visit,West,200
+Specialty Center,Outpatient Procedure,North,0
+Specialty Center,Outpatient Procedure,South,194
+Specialty Center,Outpatient Procedure,West,193
+Urgent Care,Emergency,North,109
+Urgent Care,Emergency,South,190
+Urgent Care,Emergency,West,195
+Urgent Care,Inpatient,North,90
+Urgent Care,Inpatient,South,190
+Urgent Care,Inpatient,West,201
+Urgent Care,Lab,North,90
+Urgent Care,Lab,South,229
+Urgent Care,Lab,West,228
+Urgent Care,Office Visit,North,112
+Urgent Care,Office Visit,South,178
+Urgent Care,Office Visit,West,200
+Urgent Care,Outpatient Procedure,North,109
+Urgent Care,Outpatient Procedure,South,183
+Urgent Care,Outpatient Procedure,West,215
