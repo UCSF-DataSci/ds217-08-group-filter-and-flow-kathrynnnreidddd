@@ -1,0 +1,7 @@
+facility_type,region,n_facilities,avg_beds,total_encounters,total_service_charge,total_insurance_paid
+Specialty Center,South,2,289.5,1026,672546.29,540230.15
+Urgent Care,West,2,393.5,1039,647192.24,515343.08999999997
+Urgent Care,South,2,367.5,970,611793.11,488548.93
+Specialty Center,West,2,34.5,946,599974.54,482436.48
+Urgent Care,North,1,160.0,510,334992.21,269207.92
+Hospital,South,1,252.0,509,334927.3,267183.95
