@@ -1,0 +1,30 @@
+=== Q1 Aggregation Report ===
+Total providers: 500
+Total facilities: 10
+
+Per-facility summary (top 15 by total service charge):
+                                         providers  years_exp_mean  years_exp_std  facility_total_service_charge
+facility_id facility_name                                                                                       
+FAC007      Pediatric Care Center               48       19.854167      11.166038                      361811.04
+FAC010      Surgical Specialty Center           52       17.519231      11.892476                      349909.18
+FAC002      Community Health Clinic             58       17.810345       9.859463                      334992.21
+FAC006      Oncology Treatment Center           53       21.886792       9.658915                      334927.30
+FAC009      Primary Care Clinic                 51       20.294118      12.133086                      323315.71
+FAC003      Regional Medical Center             44       19.136364       9.735074                      316284.98
+FAC008      Emergency Medical Center            46       21.760870      10.969017                      310735.25
+FAC004      Northside Urgent Care               48       20.437500      11.354831                      297283.06
+FAC001      City General Hospital               52       23.307692      10.888991                      295508.13
+FAC005      Cardiology Specialty Center         48       18.687500      11.415101                      276658.83
+
+Sample transformed provider rows (head 10):
+provider_id    provider_name facility_id             facility_name  years_experience  fac_mean_years_exp  fac_std_years_exp  years_exp_z_within_fac  facility_total_service_charge
+     PR0001       Sam Wilson      FAC006 Oncology Treatment Center                20           21.886792           9.658915               -0.195342                      334927.30
+     PR0002   Quinn Anderson      FAC001     City General Hospital                17           23.307692          10.888991               -0.579272                      295508.13
+     PR0003  Taylor Anderson      FAC010 Surgical Specialty Center                 7           17.519231          11.892476               -0.884528                      349909.18
+     PR0004      Jamie Brown      FAC006 Oncology Treatment Center                 4           21.886792           9.658915               -1.851843                      334927.30
+     PR0005 Cameron Williams      FAC001     City General Hospital                29           23.307692          10.888991                0.522758                      295508.13
+     PR0006   Riley Williams      FAC006 Oncology Treatment Center                14           21.886792           9.658915               -0.816530                      334927.30
+     PR0007      Jamie Jones      FAC010 Surgical Specialty Center                 3           17.519231          11.892476               -1.220875                      349909.18
+     PR0008    Cameron Davis      FAC008  Emergency Medical Center                24           21.760870          10.969017                0.204132                      310735.25
+     PR0009     Jordan Brown      FAC002   Community Health Clinic                37           17.810345           9.859463                1.946318                      334992.21
+     PR0010 Cameron Anderson      FAC002   Community Health Clinic                16           17.810345           9.859463               -0.183615                      334992.21
